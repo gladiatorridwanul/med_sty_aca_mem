@@ -1,0 +1,344 @@
+/* ============================================
+   UCLP Academy - Responsive Styles
+   ============================================ */
+
+/* ============================================
+   Extra Small Devices (Phones)
+   ============================================ */
+@media (max-width: 575.98px) {
+    /* Navigation */
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    
+    .navbar-brand i {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+    }
+    
+    /* Hero Section */
+    .hero {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    
+    .hero .lead {
+        font-size: 1rem;
+    }
+    
+    /* Cards */
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .book-card .card-body {
+        padding: 0.75rem;
+    }
+    
+    .book-cover {
+        height: 100px;
+    }
+    
+    .book-placeholder {
+        font-size: 2.5rem;
+    }
+    
+    /* Specialty Cards */
+    .specialty-card {
+        padding: 1rem;
+    }
+    
+    .specialty-card .icon {
+        font-size: 1.8rem;
+    }
+    
+    .specialty-card h5 {
+        font-size: 0.85rem;
+    }
+    
+    /* Forms */
+    .form-control {
+        font-size: 0.875rem;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    /* Tables */
+    .table-responsive {
+        font-size: 0.8rem;
+    }
+    
+    .table thead th {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+    
+    .table tbody td {
+        padding: 0.5rem;
+    }
+    
+    /* Dashboard */
+    .dashboard-stat {
+        padding: 0.75rem;
+    }
+    
+    .dashboard-stat h3 {
+        font-size: 1.25rem;
+    }
+    
+    .dashboard-stat p {
+        font-size: 0.8rem;
+    }
+    
+    .dashboard-stat .stat-icon {
+        font-size: 1.5rem;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+    
+    /* Sidebar */
+    .sidebar {
+        min-height: auto;
+        padding: 0.5rem 0;
+    }
+    
+    .sidebar .nav-link {
+        padding: 0.5rem 0.75rem;
+        margin: 0.1rem 0.5rem;
+        font-size: 0.85rem;
+    }
+    
+    .sidebar .nav-link i {
+        font-size: 0.9rem;
+        width: 20px;
+    }
+    
+    /* Auth Pages */
+    .auth-container {
+        margin: 1rem auto;
+        padding: 0 0.75rem;
+    }
+    
+    .auth-container .card-body {
+        padding: 1.25rem;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 1.5rem 0;
+        font-size: 0.85rem;
+    }
+    
+    /* Reader */
+    .reader-container {
+        height: calc(100vh - 50px);
+    }
+    
+    .watermark-text {
+        font-size: 16px;
+        letter-spacing: 4px;
+        right: 10px;
+    }
+    
+    .watermark-overlay {
+        font-size: 10px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    /* Badges */
+    .badge {
+        font-size: 0.65rem;
+        padding: 0.25rem 0.5rem;
+    }
+    
+    /* Modals */
+    .modal-body {
+        padding: 1rem;
+    }
+    
+    .modal-footer {
+        padding: 0.75rem 1rem;
+    }
+}
+
+/* ============================================
+   Small Devices (Tablets)
+   ============================================ */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero h1 {
+        font-size: 2.25rem;
+    }
+    
+    .hero .lead {
+        font-size: 1.1rem;
+    }
+    
+    .book-cover {
+        height: 130px;
+    }
+    
+    .dashboard-stat h3 {
+        font-size: 1.5rem;
+    }
+    
+    .specialty-card {
+        padding: 1.25rem;
+    }
+}
+
+/* ============================================
+   Medium Devices (Desktops)
+   ============================================ */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero h1 {
+        font-size: 2.75rem;
+    }
+    
+    .book-cover {
+        height: 160px;
+    }
+    
+    .dashboard-stat h3 {
+        font-size: 1.75rem;
+    }
+    
+    .sidebar {
+        min-height: auto;
+    }
+}
+
+/* ============================================
+   Large Devices (Large Desktops)
+   ============================================ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .book-cover {
+        height: 170px;
+    }
+}
+
+/* ============================================
+   Extra Large Devices
+   ============================================ */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+    .navbar,
+    .sidebar,
+    .btn,
+    .watermark-overlay,
+    .watermark-text,
+    #disableInteraction,
+    .no-print {
+        display: none !important;
+    }
+    
+    .reader-container {
+        height: auto !important;
+    }
+    
+    .reader-container iframe {
+        height: 100vh !important;
+    }
+    
+    body {
+        background: #fff !important;
+    }
+    
+    .card {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+    }
+    
+    .table {
+        font-size: 0.8rem !important;
+    }
+}
+
+/* ============================================
+   Landscape Mode for Mobile
+   ============================================ */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        padding: 1.5rem 0;
+    }
+    
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    
+    .reader-container {
+        height: calc(100vh - 40px);
+    }
+}
+
+/* ============================================
+   Dark Mode Support (Optional)
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+    /* Uncomment if dark mode is desired */
+    /*
+    body {
+        background: #1a1a2e;
+        color: #e0e0e0;
+    }
+    
+    .card {
+        background: #16213e;
+        border-color: #2a3a5e;
+    }
+    
+    .card-header {
+        background: #16213e;
+        border-color: #2a3a5e;
+    }
+    
+    .table thead th {
+        background: #1a1a2e;
+        color: #e0e0e0;
+        border-color: #2a3a5e;
+    }
+    
+    .table tbody td {
+        border-color: #2a3a5e;
+    }
+    
+    .form-control {
+        background: #1a1a2e;
+        border-color: #2a3a5e;
+        color: #e0e0e0;
+    }
+    
+    .form-control:focus {
+        background: #1a1a2e;
+        color: #e0e0e0;
+    }
+    */
+}

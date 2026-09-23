@@ -1,0 +1,132 @@
+[15-Aug-2026 12:47:25 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_books.php:46
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_books.php(46): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_books.php on line 46
+[15-Aug-2026 12:47:30 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_books.php:46
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_books.php(46): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_books.php on line 46
+[15-Aug-2026 12:51:34 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_books.php:46
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_books.php(46): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_books.php on line 46
+[15-Aug-2026 21:35:56 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_books.php:46
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_books.php(46): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_books.php on line 46
+[15-Aug-2026 21:38:10 Asia/Dhaka] Adding book: Title=Test, Author=Test, Specialty=9
+[15-Aug-2026 21:38:10 Asia/Dhaka] Bind types: ssiisssssisi
+[15-Aug-2026 21:38:10 Asia/Dhaka] Values: Array
+(
+    [0] => Test
+    [1] => Test
+    [2] => 9
+    [3] => 2026
+    [4] => Test
+    [5] => 2026
+    [6] => Test
+    [7] => 1786808290_c57cb66ce2837b7e.png
+    [8] => 1786808290_1a6736d44ead0c21.pdf
+    [9] => 1
+    [10] => pending
+    [11] => 1
+)
+
+[15-Aug-2026 21:39:01 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_journals.php:38
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_journals.php(38): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_journals.php on line 38
+[15-Aug-2026 22:16:48 Asia/Dhaka] Adding journal: Title=Test, Journal Name=Test, Specialty=8
+[15-Aug-2026 22:16:48 Asia/Dhaka] Bind types: ssisssssssii
+[15-Aug-2026 22:16:48 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_journals.php:51
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_journals.php(51): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_journals.php on line 51
+[15-Aug-2026 22:19:06 Asia/Dhaka] Adding journal: Title=Test, Journal Name=Test, Specialty=8
+[15-Aug-2026 22:19:06 Asia/Dhaka] Bind types: ssisssssssii
+[15-Aug-2026 22:19:06 Asia/Dhaka] Number of variables: 13
+[15-Aug-2026 22:19:06 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_journals.php:67
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_journals.php(67): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_journals.php on line 67
+[15-Aug-2026 22:22:35 Asia/Dhaka] Adding journal: Title=Test, Journal Name=Test, Specialty=8
+[15-Aug-2026 22:22:35 Asia/Dhaka] Number of variables: 13
+[15-Aug-2026 22:22:35 Asia/Dhaka] Types string: ssisssssssii (length: 12)
+[15-Aug-2026 22:22:35 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_journals.php:88
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_journals.php(88): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_journals.php on line 88
+[16-Aug-2026 08:32:49 Asia/Dhaka] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/uclp/public_html/admin/manage_journals.php:66
+Stack trace:
+#0 /home/uclp/public_html/admin/manage_journals.php(66): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/manage_journals.php on line 66
+[16-Aug-2026 08:34:11 Asia/Dhaka] Number of columns: 13
+[16-Aug-2026 08:34:11 Asia/Dhaka] Number of values: 13
+[16-Aug-2026 08:34:11 Asia/Dhaka] Types string: ssisssssssisi (length: 13)
+[16-Aug-2026 08:35:02 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'status' at row 1 in /home/uclp/public_html/admin/edit_journal.php:71
+Stack trace:
+#0 /home/uclp/public_html/admin/edit_journal.php(71): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/edit_journal.php on line 71
+[16-Aug-2026 08:37:00 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'status' at row 1 in /home/uclp/public_html/admin/edit_journal.php:107
+Stack trace:
+#0 /home/uclp/public_html/admin/edit_journal.php(107): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/edit_journal.php on line 107
+[16-Aug-2026 08:38:23 Asia/Dhaka] Status value being saved: approved
+[16-Aug-2026 08:38:23 Asia/Dhaka] Status type: string
+[16-Aug-2026 08:38:23 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'status' at row 1 in /home/uclp/public_html/admin/edit_journal.php:114
+Stack trace:
+#0 /home/uclp/public_html/admin/edit_journal.php(114): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/edit_journal.php on line 114
+[16-Aug-2026 08:39:34 Asia/Dhaka] Updating journal ID: 3
+[16-Aug-2026 08:39:34 Asia/Dhaka] Status value: 'approved'
+[16-Aug-2026 08:39:34 Asia/Dhaka] Status type: string
+[16-Aug-2026 08:39:34 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'status' at row 1 in /home/uclp/public_html/admin/edit_journal.php:114
+Stack trace:
+#0 /home/uclp/public_html/admin/edit_journal.php(114): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/uclp/public_html/admin/edit_journal.php on line 114
+[16-Aug-2026 08:41:43 Asia/Dhaka] UPDATE query: UPDATE journals SET 
+                    title = 'Testing',
+                    journal_name = 'Test',
+                    specialty_id = 1,
+                    issue = 'I-1',
+                    date = '2004-02-02',
+                    volume = 'V-1',
+                    pages = '12-16',
+                    doi = 'Test',
+                    abstract = 'Test',
+                    file_path = '1786847651_32c27ef73c37e4a5.pdf',
+                    is_watermarked = 1,
+                    status = 'approved',
+                    updated_at = NOW()
+                    WHERE id = 3
+[16-Aug-2026 09:40:51 Asia/Dhaka] Adding book: Title=Test 001, Author=Test, Specialty=3
+[16-Aug-2026 09:40:51 Asia/Dhaka] Bind types: ssiisssssisi
+[16-Aug-2026 09:40:51 Asia/Dhaka] Values: Array
+(
+    [0] => Test 001
+    [1] => Test
+    [2] => 3
+    [3] => 2002
+    [4] => 2002
+    [5] => 2026
+    [6] => 
+    [7] => 
+    [8] => 1786851651_fb275ed3191552b3.pdf
+    [9] => 1
+    [10] => pending
+    [11] => 1
+)
+
